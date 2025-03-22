@@ -1,0 +1,85 @@
+
+.img-div{
+    width: 50%;
+    
+}
+.info-div{
+    width: 50%;
+}
+.modal-img{
+    width: 100%;
+}
+.modal-body-css{
+    width: 100%;
+}
+
+.wiggle{
+    transform-origin: bottom center;
+    animation: rotate 2s infinite;
+    -webkit-animation: rotate 2s infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(5deg);
+    }
+    40%{
+        transform: rotate(-5deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@-webkit-keyframes rotate{
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    20%{
+        -webkit-transform: rotate(5deg);
+    }
+    40%{
+        -webkit-transform: rotate(-5deg);
+    }
+    60%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.bounce{
+
+    animation: bounce 1s ease infinite;
+    -webkit-animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-10%)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+@-webkit-keyframes bounce{
+    0%{
+        -webkit-transform: translateY(0px)
+    }
+    50%{
+        -webkit-transform: translateY(-10%)
+    }
+    100%{
+        -webkit-transform: translateY(0px)
+    }
+}

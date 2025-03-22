@@ -1,0 +1,15 @@
+
+
+.teal-background{
+    background: #1a746b;
+    ;
+}
+
+.white-text{
+    color: white;
+
+}
+
+a .nav-icon:hover{
+    transform: scale(1.2);
+}
